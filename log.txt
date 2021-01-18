@@ -1,0 +1,48 @@
+* Hostname was found in DNS cache
+*   Trying 104.18.30.155...
+* Connected to www.forzza.com (104.18.30.155) port 443 (#115)
+* SSL connection using TLSv1.2 / ECDHE-ECDSA-AES128-GCM-SHA256
+* Server certificate:
+* 	 subject: C=US; ST=CA; L=San Francisco; O=Cloudflare, Inc.; CN=sni.cloudflaressl.com
+* 	 start date: 2020-07-18 00:00:00 GMT
+* 	 expire date: 2021-07-18 12:00:00 GMT
+* 	 subjectAltName: www.forzza.com matched
+* 	 issuer: C=US; O=Cloudflare, Inc.; CN=Cloudflare Inc ECC CA-3
+* 	 SSL certificate verify result: unable to get local issuer certificate (20), continuing anyway.
+> POST /fr/initiale HTTP/1.1
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:84.0) Gecko/20100101 Firefox/84.0
+Host: www.forzza.com
+Accept: */*
+Referer: https://www.forzza.com/fr/initiale
+Content-Length: 2091
+Expect: 100-continue
+Content-Type: multipart/form-data; boundary=------------------------e4546006ff9d4b8b
+
+< HTTP/1.1 100 Continue
+< HTTP/1.1 200 OK
+< Date: Sun, 17 Jan 2021 17:05:48 GMT
+< Content-Type: text/plain; charset=utf-8
+< Content-Length: 51
+< Connection: keep-alive
+* Added cookie __cfduid="d31e68902b2ea161c338c5095aae3616e1610903147" for domain forzza.com, path /, expire 1613495147
+< Set-Cookie: __cfduid=d31e68902b2ea161c338c5095aae3616e1610903147; expires=Tue, 16-Feb-21 17:05:47 GMT; path=/; domain=.forzza.com; HttpOnly; SameSite=Lax; Secure
+< cache-control: no-cache
+< pragma: no-cache
+< expires: -1
+* Added cookie zzw-sid="mfyef0odoc2fqeosyyhhvvyk" for domain www.forzza.com, path /, expire 0
+< set-cookie: zzw-sid=mfyef0odoc2fqeosyyhhvvyk; path=/; secure; HttpOnly; SameSite=Lax
+* Added cookie Language="fr-FR" for domain www.forzza.com, path /, expire 1613495148
+< set-cookie: Language=fr-FR; expires=Tue, 16-Feb-2021 17:05:48 GMT; path=/; secure; HttpOnly
+< x-powered-by: 
+< strict-transport-security: max-age=31536000; includeSubDomains; preload
+< x-frame-options: SAMEORIGIN
+< x-xss-protection: 1; mode=block
+< x-content-type-options: nosniff
+< CF-Cache-Status: DYNAMIC
+< cf-request-id: 07b2e86d1300000ff2e2810000000001
+< Expect-CT: max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
+* Server cloudflare is not blacklisted
+< Server: cloudflare
+< CF-RAY: 6131a9c1bc880ff2-MRS
+< 
+* Connection #115 to host www.forzza.com left intact
